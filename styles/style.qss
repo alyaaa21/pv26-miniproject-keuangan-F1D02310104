@@ -1,0 +1,379 @@
+QMainWindow, QDialog {
+    background-color: #fce4ec;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 13px;
+    color: #3d1a26;
+}
+
+QWidget {
+    background-color: transparent;
+    color: #3d1a26;
+}
+
+QMenuBar {
+    background-color: #c2185b;
+    color: white;
+    padding: 4px 8px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+QMenuBar::item {
+    background: transparent;
+    padding: 6px 14px;
+    border-radius: 4px;
+}
+
+QMenuBar::item:selected {
+    background-color: #ad1457;
+}
+
+QMenu {
+    background-color: #ffffff;
+    border: 1px solid #f48fb1;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+QMenu::item {
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: #3d1a26;
+}
+
+QMenu::item:selected {
+    background-color: #fce4ec;
+    color: #c2185b;
+}
+
+QMenu::separator {
+    height: 1px;
+    background: #f48fb1;
+    margin: 4px 8px;
+}
+
+#appHeader {
+    background-color: #c2185b;
+    border-bottom: 3px solid #ad1457;
+}
+
+#appTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#appSubtitle {
+    font-size: 12px;
+    color: #f8bbd0;
+}
+
+#identityBox {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+#identityText {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+#summaryBar {
+    background-color: #f8bbd0;
+    border-bottom: 1px solid #f48fb1;
+}
+
+QFrame#cardGreen {
+    background-color: #e8f5e9;
+    border: 2px solid #a5d6a7;
+    border-radius: 10px;
+}
+
+QFrame#cardRed {
+    background-color: #fce4ec;
+    border: 2px solid #f48fb1;
+    border-radius: 10px;
+}
+
+QFrame#cardPink {
+    background-color: #ffffff;
+    border: 2px solid #c2185b;
+    border-radius: 10px;
+}
+
+#cardTitle {
+    font-size: 11px;
+    color: #757575;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#cardValue {
+    font-size: 18px;
+    font-weight: 700;
+    color: #3d1a26;
+}
+
+#contentArea {
+    background-color: #fff5f8;
+}
+
+#searchInput {
+    background-color: white;
+    border: 2px solid #f48fb1;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 13px;
+    color: #3d1a26;
+}
+
+#searchInput:focus {
+    border-color: #c2185b;
+    background-color: #fff5f8;
+}
+
+#searchInput::placeholder {
+    color: #f48fb1;
+}
+
+QPushButton {
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+#btnPrimary {
+    background-color: #c2185b;
+    color: white;
+}
+
+#btnPrimary:hover {
+    background-color: #ad1457;
+}
+
+#btnPrimary:pressed {
+    background-color: #880e4f;
+}
+
+#btnSecondary {
+    background-color: #f8bbd0;
+    color: #c2185b;
+    border: 2px solid #f48fb1;
+}
+
+#btnSecondary:hover {
+    background-color: #f48fb1;
+    color: white;
+}
+
+#btnSecondary:pressed {
+    background-color: #c2185b;
+    color: white;
+}
+
+#btnDanger {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 2px solid #ef9a9a;
+}
+
+#btnDanger:hover {
+    background-color: #ef9a9a;
+    color: white;
+}
+
+#btnDanger:pressed {
+    background-color: #c62828;
+    color: white;
+}
+
+QPushButton:disabled {
+    background-color: #e0e0e0;
+    color: #9e9e9e;
+    border: none;
+}
+
+#dataTable {
+    background-color: white;
+    border: 1px solid #f48fb1;
+    border-radius: 8px;
+    gridline-color: #fce4ec;
+    font-size: 13px;
+}
+
+#dataTable::item {
+    padding: 8px 10px;
+    color: #3d1a26;
+}
+
+#dataTable::item:selected {
+    background-color: #f48fb1;
+    color: white;
+}
+
+#dataTable::item:alternate {
+    background-color: #fff5f8;
+}
+
+QHeaderView::section {
+    background-color: #c2185b;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px 8px;
+    border: none;
+    border-right: 1px solid #ad1457;
+}
+
+QHeaderView::section:last {
+    border-right: none;
+}
+
+QScrollBar:vertical {
+    background: #fce4ec;
+    width: 8px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical {
+    background: #f48fb1;
+    border-radius: 4px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #c2185b;
+}
+
+QScrollBar:horizontal {
+    background: #fce4ec;
+    height: 8px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #f48fb1;
+    border-radius: 4px;
+}
+
+#statusLabel {
+    font-size: 11px;
+    color: #ad1457;
+    padding: 2px 0;
+}
+
+QDialog {
+    background-color: #fff5f8;
+    border-radius: 12px;
+}
+
+#dialogTitle {
+    font-size: 16px;
+    font-weight: 700;
+    color: #c2185b;
+    padding: 8px 0;
+}
+
+#formField, QLineEdit, QTextEdit, QComboBox, QDateEdit {
+    background-color: white;
+    border: 2px solid #f48fb1;
+    border-radius: 6px;
+    padding: 7px 10px;
+    font-size: 13px;
+    color: #3d1a26;
+    min-width: 200px;
+}
+
+#formField:focus, QLineEdit:focus, QTextEdit:focus,
+QComboBox:focus, QDateEdit:focus {
+    border-color: #c2185b;
+    background-color: #fff5f8;
+}
+
+QFormLayout QLabel {
+    font-weight: 600;
+    color: #880e4f;
+    font-size: 13px;
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 28px;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #c2185b;
+    margin-right: 8px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: white;
+    border: 1px solid #f48fb1;
+    border-radius: 6px;
+    selection-background-color: #f48fb1;
+    selection-color: white;
+    padding: 4px;
+}
+
+QDateEdit::up-button, QDateEdit::down-button {
+    width: 0;
+    height: 0;
+}
+
+QCalendarWidget {
+    background-color: white;
+    border: 1px solid #f48fb1;
+    border-radius: 8px;
+}
+
+QCalendarWidget QToolButton {
+    background-color: #c2185b;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+QCalendarWidget QToolButton:hover {
+    background-color: #ad1457;
+}
+
+QCalendarWidget QWidget#qt_calendar_navigationbar {
+    background-color: #c2185b;
+    border-radius: 8px 8px 0 0;
+}
+
+QCalendarWidget QAbstractItemView {
+    selection-background-color: #f48fb1;
+    selection-color: white;
+}
+
+QMessageBox {
+    background-color: #fff5f8;
+}
+
+QMessageBox QLabel {
+    color: #3d1a26;
+    font-size: 13px;
+}
+
+QMessageBox QPushButton {
+    background-color: #c2185b;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 6px;
+    min-width: 80px;
+    font-weight: 600;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #ad1457;
+}
